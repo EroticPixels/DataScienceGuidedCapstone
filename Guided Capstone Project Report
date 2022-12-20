@@ -1,0 +1,17 @@
+The Big Question: How should we price the Big Mountain Ski Resort's ticket?
+
+We are given a database that contains the information of the majority of ski resorts in this country, including the status and features of their various facilites and the their ticket price.
+
+We need to build a model to based on this give information to predict a reasonable ticket price for the Big Mountain Resort.
+
+After this, we predict the effect on the total revenue if we make tweaks to the Big Mountain Resort's facilities, either make improvements and charge more for the ticket or close some runs and reduce the running cost.
+
+The model we employ that best predicts the competitive ticket price for the Big Mountain Resort is random forest regression. We find out that the Big Mountain Resort is currently charging $15 less the the market price for the facilities that it offers.
+
+We present this discrepancy to the business leaders and suggest that the Big Mountain Resort should assess its customers' sentiment towards the possibility of an increased price and consider gradually increase the ticket price to match the competitors.
+
+However, we also point out that without the total visits data on its competitors, it's hard for us to predict the impact on the total revenue should the leaders choose to increase the price. So that's an additional reason that any price change should be rolled out gradually with an eye on the customer sentiment and the impact on the total visits.
+
+Further data modeling on the total revenue is recommended as we gain more data.
+
+Other options to increase the total profits are also presented to the business leader: by either adding more facilities/acrage and thus increase the ticket price or closing least used runs in order to reduce the cost. Functions are built so that the business leaders can predict the effect on the ticket price should the above-mentioned changes be made to the resort.
